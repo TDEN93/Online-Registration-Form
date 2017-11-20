@@ -71,11 +71,15 @@ legend {
 }
 
 
-#newsLetter label {
+#newsLetter p {
     display: block;
     padding: 30px 0;
     color: #9099A3;
     font-size: 20px;
+}
+
+#newsLetter label {
+    color: #9099A3;
 }
 
 #newsLetter span {
@@ -88,6 +92,7 @@ legend {
 
 #newsLetter textarea {
     height: 100px;
+    margin-top: 20px;
 
 }
 

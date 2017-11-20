@@ -118,15 +118,31 @@
                     <section id="newsLetter">
                         <fieldset class="fieldSet">
                             <legend>Newsletter</legend>
-                            <label>Select the newsletter you would like to receive</label>
-                            <input id="htmlCheck" type="checkbox" name="newsCheck" value="html"> <span>HTML News</span><br>
-                            <input id="cssCheck" type="checkbox" name="newsCheck" value="css"> <span>CSS News</span><br>
-                            <input id="jsCheck" type="checkbox" name="newsCheck" value="js"> <span>Javascript News</span><br>
+                            <p>Select the newsletter you would like to receive</p>
+                            
+                            <input id="htmlCheck" type="checkbox" name="newsCheck" value="html">
+                            <label for="htmlCheck">HTML News</label>
+                            <br>
+                            
+                            <input id="cssCheck" type="checkbox" name="newsCheck" value="css">
+                            <label for="cssCheck">CSS News</label>
+                            <br>
+                            
+                            <input id="jsCheck" type="checkbox" name="newsCheck" value="js">
+                            <label for="jsCheck">Javascript News</label>
+                            <br>
 
-                            <label>Newsletter Format</label>
-                            <input id="htmlFormRadio" type="radio" name="formatRadio" value="html-format"> <span>HTML</span><br>
-                            <input id="plainTextRadio" type="radio" name="formatRadio" value="plain-text"> <span>Plain Text</span><br>
-                            <label>Other topics you'd like to hear about</label>
+                            <p>Newsletter Format</p>
+                            
+                            <input id="htmlFormRadio" type="radio" name="formatRadio" value="html-format">
+                            <label for="htmlFormatRadio">HTML</label> 
+                            <br>
+                            
+                            <input id="plainTextRadio" type="radio" name="formatRadio" value="plain-text">
+                            <label for="plainTextRadio">Plain text</label>
+                            <br>
+                            
+                            <label for="textArea">Other topics you'd like to hear about</label>
                             <textarea id="textArea" name="message" rows="10" cols="300">
                             
                         </textarea>
